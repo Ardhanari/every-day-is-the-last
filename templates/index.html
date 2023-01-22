@@ -5,6 +5,11 @@
 </head>
 
 <body>
-    <h1>Hello</h1>
-    <p>{{poem}}</p>
+    <p class="date">{{poem.date}}</p>
+    <p class="poemtitle">{{poem.title}}</p>
+    <p class="poem">
+        {% for line in poem.content %}
+        <p>{{line}}</p>
+        {% endfor %}
+    </p>
 </body>
