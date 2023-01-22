@@ -1,0 +1,28 @@
+body {font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+
+body > *  {
+    margin: auto;
+    width: 500px;
+    display: block;
+    overflow: auto;
+  }
+
+p { 
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+.date {
+    font-size: 0.5em;
+}
+
+.poemtitle {
+    font-size: 2em;
+}
+
+.poem {
+    font-size: 1em;
+}
